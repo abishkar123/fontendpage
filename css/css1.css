@@ -1,0 +1,187 @@
+	
+	
+
+.table{
+
+background-color: #D8BFD8;
+width: 100%;
+height:150px;
+position: relative;
+top: 600px;
+padding: 20px
+border: 0;
+align-content: right;
+font-family: open sans-serif; 
+font-size: 14pt; 
+
+}
+.facebook{
+	background-color:  #D8BFD8;
+	color: white;
+	padding: 0px;
+	font-size: 1px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	position: relative;
+	bottom: 110px;
+	left: 440px;
+}
+.intragram{
+
+	background-color: #D8BFD8;
+	color: white;
+	padding: 0px;
+	font-size: 3px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	position: relative;
+	bottom: 110px;
+	left: 450px;
+}
+.term{
+	background-color: #D8BFD8;
+	color: white;
+	padding: 0px;
+	font-size: 3px;
+	width: 45px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 1px;
+	position: relative;
+	bottom: 110px;
+	left: 460px;
+}
+.policy{
+	background-color:  #D8BFD8;
+	color: white;
+	padding: 0px;
+	font-size: 3px;
+	width: 29px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 1px;
+	position: relative;
+	bottom: 110px;
+	left: 470px;
+}
+.help{
+	background-color: #D8BFD8;
+	color: white;
+	padding: 0px;
+	font-size: 3px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 1px;
+	position: relative;
+	bottom: 110px;
+	left: 480px;
+}
+.linkin{
+	background-color: #D8BFD8;
+	color: white;
+	padding: 0px;
+	font-size: 3px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 1px;
+	position: relative;
+	bottom: 110px;
+	left: 490px;
+}
+
+
+
+#right{
+	font-family: open sans-serif;
+	font-size: 14px;
+	position: relative;
+	bottom: 109px;
+	left: 430px;
+}
+
+
+.adminimg{
+		position: relative;
+		top: 20%;
+		bottom: 140px;
+		left: 150px;
+	}
+
+
+
+
+ 
+
+.navbar {
+  overflow: hidden;
+  background-color: #D8BFD8; 
+  width: 20%
+
+  
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: red;
+  padding: 10px 21px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-size: 16px;
+  font-family: "open sans", Times, serif;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #000000;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+
+
+}
+
+.subnav-content a {
+  float: left;
+  color: #D8BFD8;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "open sans", Times, serif;
+}
+
+.subnav-content a:hover {
+  background-color: #D8BFD8;
+  color: red;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>VPN</title>
+	<link rel="stylesheet" type="text/css" href="css\css.css">
+  <link rel="stylesheet" type="text/css" href="css\css1.css">
+	
+  
+<style type="text/css">
+.footer{
+  position: relative;
+  background-color: #D8BFD8;
+  width: 120%;
+  height: 170px;
+  top: 200px;
+}
+@media screen and (max-width: 960px) {
+body{
+  ;
+  width: 90%;
+}
+}
+body{
+  background-color: #F8F8FF;
+}
+
+</style>
+
+</head>
+<body>
+
+<h2 id="h2">Virtual Private Network (VPN)</h2>
+
+
+  <input id ="box" type="text" placeholder="Search">
+	<img id="sec-box" src="images\search.png">
+
+
+</div>
+  <img id="img-id" src="images\logo.jpg">
+
+
+ <nav><ul>
+
+  <li><a href="index.html">Home</a></li>
+
+  <li><a href="experiences.html">Experiences</a></li>
+
+  
+  <li><a href="Gallery.html">Gallery</a></li>
+
+  <li><a href="Contact.html">Contact</a></li>
+
+  <li><a href="AboutMe.html">About me </a></li>
+
+   <div class="navbar">   
+
+  
+   <div class="subnav">
+  <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button> 
+    <div class="subnav-content">
+   </div></div></div>
+</ul></nav>
+
+
+
+
+
+<section>
+  <button onclick="playPause()">Play/Pause</button>
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+
+<video id="video" width="350">
+  <source src="video\vpn1.mp4" type="video/mp4">
+  
+</video></section>
+
+<script>
+
+var myVideo=document.getElementById("video");
+ function playPause() {
+ if (myVideo.paused)
+ myVideo.play();
+ else
+ myVideo.pause();
+ }
+ function makeBig() {
+ myVideo.width=700;
+ }
+ function makeNormal() {
+ myVideo.width=460;
+ }
+
+</script>
+
+
+
+
+
+
+
+
+<div class="vpn-class">
+  <h3 id="h3"> What is the Virtual Private Network?</h3>
+  <article><p>A VPN, or <a href="https://en.wikipedia.org/wiki/Virtual_private_network">Virtual Private Network</a>, allows you to create a secure connection to another network over the Internet. VPNs can be used to access region-restricted websites,<br> shield your browsing activity from prying eyes on public Wi-Fi, and more.</p></article>
+
+  <h3 id="h3"> Features of the Virtual Private Network.</h3>
+
+<article><p>These days VPNs are really popular, but not for the reasons they were originally created. They originally were just a way to connect business networks <br>together securely over the internet or allow you to access a business network from home.</p></article>
+
+<article><p>VPNs essentially forward all your network traffic to the network, which is where the benefits like accessing local network resources<br> remotely and bypassing Internet censorship,all come from. Most operating systems have integrated VPN support.</p></article>
+
+
+
+
+
+<footer>
+<div class="footer">
+		<p><a href="">info@custiomercare
+	</a><br> 34 Fletcher Street <br>Campsie<br>NSW <br>0412732355
+</p>
+
+<a href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110">
+<img alt="facebook" src="images\facebook.png" class="facebook"></a>
+
+<a href="https://www.instagram.com/accounts/login/">
+<img alt="intragram" src="images\intragram.jpg" class="intragram"></a>
+
+<a href="https://lawpath.com.au/legal-documents/website-terms-and-conditions"><img alt="term&condition" src="images\term.jpg" class="term"> </a>
+
+<a href="https://www.opentracker.net/article/how-write-website-privacy-policy"><img alt="policy" src="images\policy.png" class="policy"></a>
+
+<a href="#"><img alt="copyright" src="images\copy.png" class="help"></a>
+
+<a href="https://www.linkedin.com/login">
+<img alt="linkin" src="images\linkin.png" class="linkin"></a>
+
+<p id="right">@2020Abishkar network solution all right Resvered  </p>
+
+
+
+</div></footer>
+</body>
+</html>

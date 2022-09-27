@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Contact</title>
+<link rel="stylesheet" type="text/css" href="css\css.css">
+
+<link rel="stylesheet" type="text/css" href="css\css1.css">
+  
+<style type="text/css">
+
+@media screen and (max-width: 960px) {
+body{
+  width: 90%;
+}
+}
+
+
+body{
+  background-color: #F8F8FF;
+}
+
+</style>
+
+</head>
+<body>
+
+<h2 id="h2">Contact Page</h2>
+
+
+  <input id ="box" type="text" placeholder="Search">
+	<img id="sec-box" src="images\search.png">
+
+  <img id="img-id" src="images\logo.jpg">
+
+
+
+  <ul><nav>
+
+  <li><a href="index.html">Home</a></li>
+
+  <li><a href="experiences.html">Experiences</a></li>
+
+  
+  <li><a href="Gallery.html">Gallery</a></li>
+
+  <li><a href="Contact.html">Contact</a></li>
+
+  <li><a href="AboutMe.html">About me </a></li>
+
+   <div class="navbar">   
+   <div class="subnav">
+  <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="activedirectory.html">Active Directory</a>
+
+      <a href="networking.html">Networking</a>
+
+      <a href="vpn.html">VPN</a>
+     
+    </div>
+  </div>
+</div>
+</ul></nav>
+
+
+
+
+
+<form>
+	<section>
+
+<h1> <u>Contact Form</u></h1>
+  <p id="Form"> Please feel free to Email all your enquireis to us. We strive to respond to Email in a time Manner. </p>
+
+<div class="contact">
+<label> <p> <b>Full Name:</p></b>
+  <input type="text" class="name_class" placeholder="Full Name" name="name">
+</label>
+
+<label><p><b>Email:</b></p>
+  <input type="text" class="email_class" placeholder="Email" name="email">
+</label>
+
+<label><p><b>Address:</b></p>
+  <input type="text" class="address_class" placeholder="Address" name="address">
+  </label>
+
+  <label><p><b>Contact Number:</b></p>
+  <input type="number" class="number_class" placeholder="Phone Number" name="phone number">
+  </label>
+
+  <label><p><b>Membership ID:</b></p>
+  <input type="number" class="member_class" placeholder="Member ID" name="member id">
+  </label>
+
+  <label><p><b>Message:</b></p>
+  <input type="text" class="message_class" placeholder="" name="message">
+  </label>
+
+  <label><p><input type="submit" class="submit" value="Submit"></p></label>
+
+
+
+</div></form>
+
+	
+</section>
+
+<script>
+	<script>
+ function validateForm() {
+ var validname = document.forms["Full Name"]["name"].value;
+ if (validname == null || validname == "") {
+ document.getElementById('jsname').innerHTML = '* Full Name';
+ alert("Name must be filled out");
+ return false;
+ }
+ }
+</script>
+
+
+
+</script>
+
+
+
+
+<footer>
+<div class="footer">
+		<p><a href="">info@custiomercare
+	</a><br> 34 Fletcher Street <br>Campsie<br>NSW <br>0412732355
+</p>
+
+<a href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110">
+<img alt="facebook" src="images\facebook.png" class="facebook"></a>
+
+<a href="https://www.instagram.com/accounts/login/">
+<img alt="intragram" src="images\intragram.jpg" class="intragram"></a>
+
+<a href="https://lawpath.com.au/legal-documents/website-terms-and-conditions"><img alt="term&condition" src="images\term.jpg" class="term"> </a>
+
+<a href="https://www.opentracker.net/article/how-write-website-privacy-policy"><img alt="policy" src="images\policy.png" class="policy"></a>
+
+<a href="#"><img alt="copyright" src="images\copy.png" class="help"></a>
+
+<a href="https://www.linkedin.com/login">
+<img alt="linkin" src="images\linkin.png" class="linkin"></a>
+
+<p id="right">@2020Abishkar network solution all right Resvered  </p>
+
+
+</div></footer>
+
+</body>
+</html>

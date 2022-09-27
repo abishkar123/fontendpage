@@ -1,0 +1,254 @@
+ul {
+  list-style-type: none;
+  margin: 3px:;
+  padding: ;
+  overflow: hidden;
+  background-color: #D8BFD8;
+  font-family: "open sans", Times, serif;
+  font-size: 18px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 8px 50px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+
+}
+img {
+  display: block;
+  margin-top: none;
+  margin-left: left;
+  padding: 10px;
+  height: 50px;
+
+}
+
+  
+h2 {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    background-color: #D8BED8;
+    font-style: all;
+    font-size: 27px;
+    color: #FF0000;
+    font-family: "open sans", Times, serif;
+    }
+
+    #box{
+
+      background-color: #f1f1f1;
+        position: relative;
+      left: 72%;
+      padding: 8px;
+      margin: 2px;
+      
+
+    }
+
+
+#sec-box{
+  position: relative;
+  padding: 2.5px;
+  font-size: 3px;
+  width: 29px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  left: 70%;
+  background: black;
+  color: white;
+  top: 12px;
+  
+}
+#img-id{
+  position: relative;
+  padding: 1px;
+  width: 14%;
+  right: 200px;
+  top: 20px;
+
+
+}
+
+
+.table{
+  position: relative;
+  background-color: #D8BFD8;
+  width: 100%;
+  height: 170px;
+  top: 300px;
+
+
+}
+
+
+#con {
+ width: 1024px;
+}
+
+.gallery img {
+ transform: scale(0.8);
+ transition: all 0.5s linear;
+ opacity: 0.7;
+ margin: 10px 10px 5px 0;
+}
+.gallery img:hover {
+ transform: scale(1.1);
+ box-shadow: 10px 0px 30px gray;
+ opacity: 1;
+
+}
+#con {
+ width: 960px;
+
+}
+.gallery ul {
+ margin: 10px;
+ padding: 0;
+ list-style-type: none;
+ text-align: center;
+}
+.gallery ul li {
+ display: inline;
+
+}
+
+
+
+
+.paragraph{
+  font-size: 15px;
+  font-family: "open sans", Times, serif;
+  position: relative;
+  left: 150px;
+
+    }
+#heading{
+  font-size: 20px;
+   font-family:"open sans", Times, serif;
+  position: relative;
+  left: 500px;
+  font: bold;
+
+}
+.name_class{
+   padding: 8px 12px;
+   width: 300px;
+   background: #DCDCDC;
+   border-bottom: 2px double #171717;
+   border-top: 2px double #171717;
+   border-left: 2px double #333333;
+   border-right: 2px double #333333;
+
+}
+
+.email_class{
+   padding: 8px 12px;
+   width: 300px;
+   background: #DCDCDC;
+   border-bottom: 2px double #171717;
+   border-top: 2px double #171717;
+   border-left: 2px double #333333;
+   border-right: 2px double #333333;
+}
+
+.address_class{
+   padding: 8px 12px;
+   width: 300px;
+   background: #DCDCDC;
+   border-bottom: 2px double #171717;
+   border-top: 2px double #171717;
+   border-left: 2px double #333333;
+   border-right: 2px double #333333;
+}
+ .number_class{
+   padding: 8px 12px;
+   width: 300px;
+   background: #DCDCDC;
+   border-bottom: 2px double #171717;
+   border-top: 2px double #171717;
+   border-left: 2px double #333333;
+   border-right: 2px double #333333;
+ }
+
+.member_class{
+  padding: 8px 12px;
+   width: 300px;
+   background: #DCDCDC;
+   border-bottom: 2px double #171717;
+   border-top: 2px double #171717;
+   border-left: 2px double #333333;
+   border-right: 2px double #333333;
+}
+.message_class{
+   padding: 50px 20px;
+   width: 400px;
+   overflow: hidden;
+   background: #DCDCDC;
+   border-bottom: 2px double #171717;
+   border-top: 2px double #171717;
+   border-left: 2px double #333333;
+   border-right: 2px double #333333;
+}
+.submit{
+  border-bottom: 2px double #171717;
+   border-top: 2px double #171717;
+   border-left: 2px double #333333;
+   border-right: 2px double #333333;
+   background: #ff0000;
+}
+
+.aboutme_img{
+width: 650px;
+height: 300px;
+position: relative;
+left: 250px;
+}
+
+
+#Form{
+  font-size: 16px;
+  font-family: "open sans", Times, serif;
+}
+
+.contact{
+font-size: 16px;
+  font-family: "open sans", Times, serif;
+  position: relative;
+  left: 200px;
+}
+.footer{
+  position: relative;
+  background-color: #D8BFD8;
+  width: 120%;
+  height: 170px;
+  top: 200px;
+}
+
+.active.d{
+  font-size: 16px;
+  font-family: "open sans", Times, serif;
+
+}
+.vpn-class{
+ font-size: 16px;
+  font-family: "open sans", Times, serif;
+  position: relative;
+}
